@@ -325,5 +325,12 @@
   "ltpc": "4-0-0-4",
   "category": "Elective",
   "program": "MSc"
+  },
+   {
+  "code": "MA5015",
+  "title": "Numerical Analysis with Programming",
+  "ltpc": "2-1-2-4",
+  "category": "Core",
+  "program": "MSc"
   }
 ]

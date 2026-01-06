@@ -153,12 +153,12 @@
   <main>
 
     <section class="current-semester-section" style="padding: 0 5vw;">
-      <h1 class="catalogue-title">Current Semester (Aug-Dec 2025)</h1>
+      <h1 class="catalogue-title">Current Semester (Jan-May 2026)</h1>
 
       <!-- BTech Semester 1 Table -->
-      <h2>BTech - Semester 1</h2>
+      <h2>BTech - Core Courses</h2>
       <div class="table-container">
-        <table class="course-table" id="btech-sem1">
+        <table class="course-table" id="btech-sem2">
           <thead>
             <tr>
               <th>Course Name</th>
@@ -174,9 +174,9 @@
       </div>
 
       <!-- BTech Semester 3 Table -->
-      <h2>BTech - Semester 3</h2>
+      <h2>BTech - Elective Courses</h2>
       <div class="table-container">
-        <table class="course-table" id="btech-sem3">
+        <table class="course-table" id="btech-sem4">
           <thead>
             <tr>
               <th>Course Name</th>
@@ -192,9 +192,9 @@
       </div>
 
       <!-- MSc Semester 1 Table -->
-      <h2>MSc - Semester 1</h2>
+      <h2>MSc - Core Courses</h2>
       <div class="table-container">
-        <table class="course-table" id="msc-sem1">
+        <table class="course-table" id="msc-sem2">
           <thead>
             <tr>
               <th>Course Name</th>
@@ -210,9 +210,9 @@
       </div>
 
       <!-- MSc Semester 3 Table -->
-      <h2>MSc - Semester 3</h2>
+      <h2>MSc - Elective Courses</h2>
       <div class="table-container">
-        <table class="course-table" id="msc-sem3">
+        <table class="course-table" id="msc-sem4">
           <thead>
             <tr>
               <th>Course Name</th>
@@ -228,7 +228,7 @@
       </div>
 
       <!-- PhD Table -->
-      <h2>PhD</h2>
+     <!-- <h2>PhD</h2>
       <div class="table-container">
         <table class="course-table" id="phd">
           <thead>
@@ -243,8 +243,8 @@
           </thead>
           <tbody></tbody>
         </table>
-      </div>
-    </section>
+      </div> -->
+    </section> 
 
     <!-- Modal -->
 
@@ -354,87 +354,69 @@
     <script>
       const courses = [
         {
-          code: "MA5001", name: "Linear Algebra", instructor: "Dr. Subhankar Dey",
-          ltpc: "4-0-0-4", slot: "F,Q (N308)", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45, <b>Wed:</b> 14.00-14.50", program: "MSc", semester: 1
+          code: "MA1021", name: "Multivariable Calculus (MA1021)", instructor: "Dr. Rohit Varma, Dr. Lakshmi Sankar K",
+          ltpc: "3-1-0-4", slot: "F,Q (C06-105,C06-106,C06-107)", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45, <b>Wed:</b> 14.00-14.50", program: "BTech", semester: 2
         },
         {
-          code: "MA5003", name: "Real Analysis", instructor: "Dr. Sarath Sasi",
-          ltpc: "4-0-0-4", slot: "A,E (N308)", daysTime: "<b>Mon:</b> 8.00-8.50, <b>Wed:</b> 10.00--11.50, <b>Fri:</b> 8.00--9.50", program: "MSc", semester: 1
+          code: "MA2041", name: "Probability and Statistics (MA2041)", instructor: "Dr. Priyanka Sen, Dr Ashok Kumar M",
+          ltpc: "3-0-0-3", slot: "F (A01-002,A01-213)", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30--11.45", program: "BTech", semester: 4
         },
         {
-          code: "MA5005A", name: "Groups and Rings", instructor: "Dr. Jaikrishnan J.",
-          ltpc: "3-0-0-3", slot: "G (N308)", daysTime: "<b>Tue:</b> 10.30-11.45, <b>Thu:</b> 9.00-10.15", program: "MSc", semester: 1
+          code: "MA2032", name: "Numerical Analysis (MA2032)", instructor: "Dr. Rekha Khot, Dr Sarath Sasi",
+          ltpc: "3-0-0-3", slot: "F (A01-202)", daysTime: "<b>Tue:</b> 10.30-11.45, <b>Thu:</b> 9.00-10.15", program: "BTech", semester: 4
         },
          {
-          code: "MA5007A", name: "Probability and Statistics", instructor: "Dr. M Ashok Kumar",
-          ltpc: "3-0-0-3", slot: "C (N308)", daysTime: "<b>Mon:</b> 10.00-10.50, <b>Wed:</b> 8.00-8.50, <b>Fri:</b> 11.00-11.50", program: "MSc", semester: 1
+          code: "MA5002A", name: "Multivariable Calculus (MA5002)", instructor: "Dr. Arpan Kabiraj",
+          ltpc: "3-0-0-3", slot: "K (N308)", daysTime: "<b>Tue:</b> 14.00-15.15, <b>Thu:</b> 15.30-16.45", program: "MSc", semester: 2
         },
         {
-          code: "MA5009A", name: "Ordinary Differential Equations", instructor: "Dr. Lakshmi Shankar",
-          ltpc: "3-0-0-3", slot: "K (N308)", daysTime: "<b>Tue:</b> 14.00-15.15, <b>Thu:</b> 15.30-16.45", program: "MSc", semester: 1
+          code: "MA5004A", name: "Measure Theory (MA5004A)", instructor: "Dr. Srijan Sarkar",
+          ltpc: "3-0-0-3", slot: "L (N308)", daysTime: "<b>Tue:</b> 15.30-16.45, <b>Thu:</b> 14.00-15.15", program: "MSc", semester: 2
         },
          {
-          code: "MA5014", name: "Fundamentals of Mathematics", instructor: "Prof. M. Varadharajan",
-          ltpc: "2-0-0-2", slot: "M (N308)", daysTime: "<b>Tue, Thu:</b> 12.00-12.50", program: "MSc", semester: 1
+          code: "MA5006A", name: "Fields and Modules (MA5006A)", instructor: "Dr. Jaikrishnan Janardhanan",
+          ltpc: "3-0-0-3", slot: "J (N308)", daysTime: "<b>Mon:</b> 15.30-16.45, <b>Fri:</b> 14.00-15.15", program: "MSc", semester: 2
+        },
+         {
+          code: "MA5010A", name: "Complex Analysis (MA5010A)", instructor: "Dr. Balakumar G P",
+          ltpc: "3-0-0-3", slot: "I (N308)", daysTime: "<b>Mon:</b> 14.00-15.15, <b>Fri:</b> 15.30-16.45", program: "MSc", semester: 2
         },
         {
-          code: "MA5008A", name: "Topology", instructor: "Dr Balakumar J. P.",
-          ltpc: "3-0-0-3", slot: "J (N308)", daysTime: "<b>Mon:</b> 15.30-16.45, <b>Fri:</b> 14.00-15.15", program: "MSc", semester: 3
-        },
-         {
-          code: "MA6005A", name: "Functional Analysis", instructor: "Dr Srijan Sarkar",
-          ltpc: "3-0-0-3", slot: "G (N306)", daysTime: "<b>Tue:</b> 10.30-11.45, <b>Thu:</b> 9.00-10.15", program: "MSc", semester: 3
+          code: "MA5015", name: "Numerical Analysis with Programming (MA5015)", instructor: "Dr. Gopikrishnan C R",
+          ltpc: "2-1-2-4", slot: "M (N308), PM3 (A01-201)", daysTime: "<b>Tue, Thu:</b> 12.00-12.50, <b>Wed:</b> 9.00.-11.50", program: "MSc", semester: 2
         },
         {
-          code: "MA6007A", name: "Partial Differential Equations", instructor: "Dr Gopikrishnan C R",
-          ltpc: "3-0-0-3", slot: "R1,R2,CMNA (N203)", daysTime: "<b>Mon, Tue:</b> 17.10-18.00, <b>Wed:</b> 16.00-16.50", program: "MSc", semester: 3
-        },     
+          code: "MA5008A", name: "Topology (MA5008A)", instructor: "Dr. Subhankaer Dey",
+          ltpc: "3-0-0-3", slot: "F (N308)", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45", program: "MSc", semester: 2
+        },
+        {
+          code: "GN5002", name: "Technical Writing (GN5002)", instructor: "Dr. V Muruganandam",
+          ltpc: "1-0-0-1", slot: "G", daysTime: "Tue: 10.30-11.45", program: "MSc", semester: 2
+        },
+        {
+          code: "MA6610", name: "Statistical Inference and Simulation", instructor: "Dr. Tanmay Sahoo",
+          ltpc: "4-0-0-4", slot: "D+H (Mon), A+H (Wed), A (Friday) (N308)", daysTime: "Mon: 11.00-12.55, Wed: 11.00-12.55, Fri: 9.00 - 9.50", program: "MSc", semester: 4
+        },
          {
-          code: "MA5601", name: "Introduction to Commutative Algebra (PG-OE)", instructor: "Dr Rohit Varma",
-          ltpc: "3-0-0-3 (N308)", slot: "I", daysTime: "<b>Mon:</b> 14.00-15.15, <b>Fri:</b> 15.30-16.45", program: "MSc", semester: 3
-        },  
-           {
-          code: "MA5501", name: "Information Theory and Statistics (PG-OE)", instructor: "Dr Ashok Kumar",
-          ltpc: "3-0-0-3 (N203)", slot: "F", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45", program: "MSc", semester: 3
-        },  
+          code: "MA6001", name: "Probability Theory", instructor: "Dr. Ashok Kumar M",
+          ltpc: "3-0-0-3", slot: "B+C (Mon), D+E (Wed) (N308)", daysTime: "Mon: 9.00-10.50, Wed: 9.00-10.50", program: "MSc", semester: 4
+        },
           {
-          code: "MA7003", name: "Real and Functional Analysis (PhD-OE)", instructor: "Dr Srijan Sarkar",
-          ltpc: "3-0-0-3 (N308)", slot: "L", daysTime: "<b>Tue:</b> 15.30-16.45, <b>Thu:</b> 14.00-15.15", program: "PhD", semester: 3
-        }, 
-        {
-          code: "MA5619", name: "Geometry of Curves and Surfaaces (All-OE)", instructor: "Dr Arpan Kabiraj",
-          ltpc: "4-0-0-4 (N203/204)", slot: "K", daysTime: "<b>Tue:</b> 14.00-15.15, <b>Thu:</b> 15.30-16.45", program: "MSc", semester: 3
-        }, 
-        {
-          code: "MA1011A",
-          name: "Linear Algebra and Series",
-          instructor: "Dr Parangama Sarkar",
-          daysTime: "<b>Tue:</b> 9.00-10.15, <b> Thu:</b> 10.30-11.45, <b>Fri:</b> 17.10-18.00",
-          slot: "F+R5",
-          ltpc: "3-1-0-4",
-          category: "Core",
-          program: "BTech",
-          semester: 1
+          code: "MA6605", name: "Operator Theory", instructor: "Dr. Jayanarayanan C R",
+          ltpc: "3-0-0-3", slot: "G (N307)", daysTime: "Tue: 10.30-11.45, Thu: 9.00-10.15", program: "MSc", semester: 4
         },
-       {
-          code: "MA2041",
-          name: "Probability and Statistics",
-          instructor: "Dr Tanmay Sahoo",
-          daysTime: "<b>Tue:</b> 10.30-11.45, <b> Thu:</b> 9.00-10.15",
-          slot: "G",
-          ltpc: "3-0-0-3",
-          category: "Elective",
-          program: "BTech",
-          semester: 3
+         {
+          code: "MA6012", name: "Harmonic Analysis and Compact Lie Groups", instructor: "Dr. Varadharajan Muruganandam",
+          ltpc: "3-0-0-3", slot: "F (N307)", daysTime: "Tue: 9.00-10.15, Thu: 10.30-11.45", program: "MSc", semester: 4
         }
       ];
 
       // Mapping for table IDs
       const tableMap = {
-        "BTech-1": "btech-sem1",
-        "BTech-3": "btech-sem3",
-        "MSc-1": "msc-sem1",
-        "MSc-3": "msc-sem3",
+        "BTech-2": "btech-sem2",
+        "BTech-4": "btech-sem4",
+        "MSc-2": "msc-sem2",
+        "MSc-4": "msc-sem4",
         "PhD": "phd"
       };
 
@@ -457,7 +439,7 @@
       });
 
       function showCourseModal(code) {
-        fetch(`courses/${code}.json`)
+        fetch(`${code}.json`)
           .then(res => res.json())
           .then(data => {
             const syllabusHTML = data.syllabus?.map(unit =>

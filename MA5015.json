@@ -1,0 +1,101 @@
+{
+  "code": "MA5015A",
+  "title": "Numerical Analysis with Programming",
+  "ltpc": "2-1-2-4",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "1",
+      "details": "Review of elementary calculus: Mean value theorem, Rolle’s theorem, Taylor’s theorem with different error formulae, Ck[a,b] functions."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "3",
+      "details": "Introduction to finite precision arithmetic: Representation of numbers of finite digit machines, rounding and chopping errors, error propagation, asymptotic convergence, big and little oh notation. "
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "4",
+      "details": "Root finding of nonlinear systems:  Bisection, Secant and Newton’s method, fixed point iteration"
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "5",
+      "details": "Linear systems: Gauss elimination, LU, QR,  matrix norms, Jacobi and Gauss-Seidel method"
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "4",
+      "details": "Interpolation:  Lagrange interpolation, Newton interpolation using divided differences, Hermite interpolation, piecewise linear and cubic spline interpolation"
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "2",
+      "details": "Numerical differentiation:  Finite differences, Richardson extrapolation"
+    },
+    {
+      "unit": "Module 8",
+      "lectures": "4",
+      "details": "Numerical integration: Trapezoidal rule,  Simpson's rule, Gaussian quadrature in 1D and 2D"
+    },
+    {
+      "unit": "Module 9",
+      "lectures": "5",
+      "details": "Numerical solutions of ordinary differential equations:  Euler’s method, implicit method, predictor-corrector schemes, Runge-Kutta methods"
+    },
+     {
+      "unit": "Module 1 (Lab)",
+      "lectures": "2",
+      "details": "Introduction of terminal-based operations and basic unix commands, handling Vim or Emacs,  file management in Unix"
+    },
+    {
+        "unit": "Module 2 (Lab)",
+        "lectures": "4",
+        "details": "Basic programming principles, simple numerical computations using Python (variables, strings, lists, comparison operators), logical expressions and operators, vector and array manipulation, Jupyter notebook "
+    },
+      {
+        "unit": "Module 3 (Lab)",
+        "lectures": "3",
+        "details": "Loops and conditional statements in Python, basic data structures (strings, lists, dictionaries)"
+    },
+     {
+        "unit": "Module 4 (Lab)",
+        "lectures": "4",
+        "details": "Modules, standard modules such as cmath, Numpy Scipy, Matplotlib"
+    },
+    {
+        "unit": "Module 5 (Lab)",
+        "lectures": "4",
+        "details": "Different type of functions, type conversion, local and global variables"
+    },
+     {
+        "unit": "Module 6 (Lab)",
+        "lectures": "3",
+        "details": "Graphics using matplotlib, 2D and 3D plotting"
+    },
+     {
+        "unit": "Module 7 (Lab)",
+        "lectures": "2",
+        "details": "File management, Reading and writing large data to file"
+    }
+  ],
+  "textbooks": [
+    "An introduction to numerical methods and analysis, J. Epperson, John Wiley and Sons (1st Edition), 2001, ISBN - 978-0471316473",
+    "INumerical methods in engineering with Python 3, J. Kiusalaas, Cambridge University Press (3rd Edition), 2013, ISBN - 9781139523899"
+  ],
+  "references": [
+    "An introduction to numerical analysis, K. A. Atkinson, Wiley India (2nd Edition), 2008, 978-8126518500",
+    "Numerical analysis, R. L. Burden and J. D. Faires, Cengage Learning Inc (9th Edition), 2010, ISBN - 978-0538733519",
+    "An Introduction to Numerical Analysis, E. Sueli and F. D. Mayers, Cambridge University Press, 2003, ISBN - 978-0521007948",
+    "A concise introduction to numerical analysis, A. C. Faul",
+    "Numerical methods for engineers, S. C. Chapra and R. P. Canale, McGraw Hill (8th Edition), 2021, ISBN  - 978-9354601361",
+    "Applied numerical analysis, C. F. Gerald and P. O. Wheatley, Pearson education India (7th Edition), 2007, ISBN - 978-8131717400",
+    "A graduate introduction to numerical methods: from the viewpoint of backward error analysis, R. C. Corless, N. Fillion, Springer, 2014, ISBN - 978-1461484523",
+    "Python programming and numerical methods : a guide for engineers and scientists,   Q. Kong, T. Siauw, and A. M. Bayen, Academic Press Inc (1st edition), 2020, ISBN - 978-0128195499",
+    "Numerical methods with Python: for the Sciences, W. Miller, De Gruyter, 2023, ISBN - 978-3110776454",
+    "Numerical Python: Scientific computing and data science applications with Numpy, SciPy, and Matplotlib, Apress, 2019, ISBN - 978-1484246481"
+  ]
+}
+
