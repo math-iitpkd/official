@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Kohinoor-Bold';
+    src: url('Kohinoor-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-Bolditalic';
+    src: url('Kohinoor-BoldItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-Book';
+    src: url('Kohinoor-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-BookItalic';
+    src: url('Kohinoor-BookItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KohinoorDemi';
+    src: url('Kohinoor-Demi.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-DemiItalic';
+    src: url('Kohinoor-DemiItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-Light';
+    src: url('Kohinoor-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-LightItalic';
+    src: url('Kohinoor-LightItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-Medium';
+    src: url('Kohinoor-Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor-Medium';
+    src: url('Kohinoor-MediumItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
