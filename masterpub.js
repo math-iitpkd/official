@@ -8,6 +8,26 @@ const masterPublications = [
         number: "14",
         year: 2025,
         tags: ["recent"]
+      },
+      {
+        id: "pub2",
+        title: "Rank Bounds in Link Floer homology and Detection Results",
+        authors: "S. Dey, F. Binns",
+        journal: "Quantum Topology",
+        volume: "16",
+        number: "4",
+        year: 2025,
+        tags: ["recent"]
+      },
+       {
+        id: "pub3",
+        title: "Essential Surfaces in Link Exteriors and Link Floer Homology",
+        authors: "S. Dey",
+        journal: "Proceedings of the International Conference on Knots",
+        volume: "14",
+        number: "",
+        year: 2025,
+        tags: ["recent"]
       }
 ];
 

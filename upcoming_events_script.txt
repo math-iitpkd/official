@@ -1,0 +1,26 @@
+  <section class="events-section">
+    <div class="events-container">
+      <h2 class="events-title">Upcoming Events</h2>
+      <div class="event-boxes">
+        <!---->
+        <div class="event-box">
+          <div class="event-header">
+            <span class="event-date">📅 Jan. 9 (11.00 - 12.00 PM), 2025</span>
+            <span class="event-tag">Seminar</span>
+          </div>
+          <h3> Weakly integrable representations of affine Kac-Moody algebras</h3>
+          <p>Seminar by Prof Souvik Pal</p>
+          <a class="event-btn" href="8_Jan_Souvik.html" target="_blank">Learn More</a>
+        </div>
+         <!---->
+      </div>
+    </div>
+  </section> 
+
+   <div class="research-slide">
+            <img src="SD_4.jpg" alt="Slide 3">
+            <div class="research-banner-top">Stochastic Modeling</div>
+            <div class="research-banner-bottom">
+              <span>Probability Surveys, 2024</span>
+            </div>
+          </div>
